@@ -7,6 +7,6 @@ def my_collect(array)
     yield(new_array << array[i].split(" ").first)
     i += 1
   end
-  
+  new_array
 end
 
